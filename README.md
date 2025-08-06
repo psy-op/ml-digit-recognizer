@@ -1,13 +1,13 @@
 # MNIST Digit Recognizer
 
-A simple machine learning app that trains a classifier to recognize handwritten digits using the classic MNIST dataset.  
+A simple machine learning app that trains a classifier to recognize handwritten digits using scikit-learn's digits dataset (a smaller version of MNIST).
 The app uses Python and scikit-learn, and includes visualization of sample predictions.
 
 ## Features
-- Loads and preprocesses the MNIST dataset (via `sklearn.datasets`)
+- Loads and preprocesses the digits dataset (via `sklearn.datasets`)
 - Trains a logistic regression classifier
 - Shows accuracy on the test data
-- Visualizes random predictions
+- Visualizes random predictions and saves them as an image
 
 ## Setup
 
@@ -38,7 +38,7 @@ python app.py
 ## Output
 
 - Test set accuracy printed in the console
-- Plots of sample predicted digits
+- Sample predicted digits saved to `sample_predictions.png`
 
 ## Customization
 
